@@ -1,0 +1,8 @@
+# Ignore .plugin.php
+.plugin.php 
+
+# Ignore app/.Config.php
+app/.Config.php
+
+# Ignore app/.bootstrap.php
+app/.bootstrap.php

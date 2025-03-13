@@ -1,0 +1,42 @@
+.regular-list {
+    margin-left: 15px;
+}
+
+.regular-list li {
+    list-style-type: disc;
+    margin-left: 15px;
+}
+
+.medium-text {
+    width: 45em;
+}
+
+.medium-textarea {
+    width: 45em;
+    height: 150px;
+    min-height: 150px;
+}
+
+.form-table p.description ul {
+    margin-left:20px;
+    background: red!important;
+}
+
+.form-table p.description ul li {
+    list-style-type: disc;
+}
+
+
+/* 
+STYLING FOR CONDITION SETTINGS
+
+Target table rows that contain (:has) the correct child checked input or target class
+
+*/
+tr:has(.conditional-responder) {
+    display: none;
+}
+  
+tr:has(.conditional-controller:checked) + tr:has(.conditional-responder) {
+    display: table-row; /* Assuming the parent of the tr is a table */
+}
