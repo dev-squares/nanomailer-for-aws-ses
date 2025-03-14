@@ -1,6 +1,9 @@
 # Ignore .plugin.php
 .plugin.php 
 
+# Ignore bash files
+dlb.sh 
+
 # Ignore app/.Config.php
 app/.Config.php
 
