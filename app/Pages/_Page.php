@@ -3,8 +3,8 @@ namespace INITP\NAS\Core;
 
 defined( 'ABSPATH' ) || exit;
 
-use INITP\OptionPageBuilder\Classes\Builder;
 use INITP\OptionPageBuilder\Classes\BasePage;
+use INITP\OptionPageBuilder\Classes\Builder;
 use INITP\NAS\Core\Log;
 use INITP\NAS\Config;
 
