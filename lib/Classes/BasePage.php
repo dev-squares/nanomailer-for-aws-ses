@@ -47,7 +47,6 @@ class BasePage
                     'id' => 'default_section',
                     'title' => 'Default Section',
                     'callback' => '__return_false',
-                    'slug' => 'default-section',
                     // Fields
                     'fields' => [
                         [
@@ -115,7 +114,6 @@ class BasePage
                     'id' => 'more_examples_default',
                     'title' => 'Default Section',
                     'callback' => '__return_false', // callback
-                    'slug' => 'more-examples-default',
                     // Fields
                     'fields' => [
                         [
