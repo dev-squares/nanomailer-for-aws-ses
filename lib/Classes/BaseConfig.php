@@ -13,7 +13,6 @@ class BaseConfig
 
     public static function validationClass() 
     {
-        //return \INITP\OPBB\Services\Validation::class;
         return \INITP\OptionPageBuilder\Classes\BaseValidation::class;
     }
 
