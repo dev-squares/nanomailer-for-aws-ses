@@ -12,3 +12,4 @@ app/.bootstrap.php
 
 # Ignore upgrade dir
 upgrade/
+update-core.sh
