@@ -3,7 +3,6 @@
 
 # Ignore bash files
 dlb.sh
-updns.sh
 
 # Ignore app/.Config.php
 app/.Config.php
