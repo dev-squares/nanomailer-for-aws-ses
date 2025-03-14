@@ -2,7 +2,8 @@
 .plugin.php 
 
 # Ignore bash files
-dlb.sh 
+dlb.sh
+updns.sh
 
 # Ignore app/.Config.php
 app/.Config.php
