@@ -10,7 +10,7 @@ class Log extends BaseLog
 {
     private static function formatMessage( $message )
     {
-        return Config::pluginTitle() . " :: " . print_r($message, true);
+        return Config::logPrefix() . " :: " . print_r($message, true);
     }
 
     public static function info( $message )
