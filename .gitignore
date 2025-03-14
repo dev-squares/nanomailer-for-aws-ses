@@ -1,15 +1,13 @@
 # Ignore .plugin.php
 .plugin.php 
 
-# Ignore bash files
-dlb.sh
-
 # Ignore app/.Config.php
 app/.Config.php
 
 # Ignore app/.bootstrap.php
 app/.bootstrap.php
 
-# Ignore upgrade dir
+# Ignore upgrade dir/files
 upgrade/
-update-core.sh
+.dlbase.sh
+dlbase.sh
