@@ -9,3 +9,6 @@ app/.Config.php
 
 # Ignore app/.bootstrap.php
 app/.bootstrap.php
+
+# Ignore upgrade dir
+upgrade/
